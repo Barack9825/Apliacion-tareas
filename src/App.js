@@ -1,6 +1,6 @@
 import Logo from './imagenes/descarga.jfif'
 import './App.css';
-
+import Tarea from './componentes/Tareas';
 function App() {
   return (
     <div className='aplicacion-tareas'>
@@ -15,6 +15,8 @@ function App() {
 
       <div className='tareas-lista-principal'>
         <h1>Mis tareas</h1>
+        <Tarea
+        texto={'Aprender React'}/>
       </div>
 
     

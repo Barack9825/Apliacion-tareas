@@ -1,4 +1,5 @@
 import React from 'react';
+import '../hojas-de-estilo/Tarea.css'
 
 function Tarea({ texto }){
     return (
@@ -7,7 +8,7 @@ function Tarea({ texto }){
                 {texto}
             </div>
             <div className='tarea-icono'>
-                Eliminar
+                
             </div>
         </div>
 
