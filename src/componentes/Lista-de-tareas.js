@@ -5,7 +5,12 @@ import Tarea from "./Tareas";
 
 function ListaDeTareas(){
 
-    const[tareas,setTareas] = useState([]);
+    const [tareas,setTareas] = useState([]);
+
+    const agregarTarea = tarea => {
+        console.log("Tarea agregada");
+        console.log(tarea);
+    }
 
     return(
         <>
